@@ -1,0 +1,17 @@
+.Header {
+    margin: 0 auto;
+    text-align: center;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 20px;
+    width: 330px;
+}
