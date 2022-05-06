@@ -12,7 +12,6 @@ const TodoApp = () => {
   useEffect (()=>{
 
     let storedTasks=localStorage.getItem('tasks')
-    console.log(storedTasks);
     if(storedTasks){
       storedTasks=JSON.parse(storedTasks)
     }
@@ -48,7 +47,6 @@ const TodoApp = () => {
         status:false,
       }
     ]
-    console.log(newTasks)
     setTasks(newTasks)
     localStorage.setItem('tasks',JSON.stringify(newTasks))
 

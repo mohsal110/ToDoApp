@@ -21,7 +21,7 @@ const AddTaskForm = ({addTask}) => {
   return (
     <div className='AddTaskForm'>
         <form  onSubmit={(event)=>handleSumbit(event)}className='form'>
-          <input onChange={handleChange} type="text" placeholder='what should be done?'></input>
+          <input onChange={handleChange} type="text" placeholder='What should be done?'></input>
           <button  type="submit">Add</button>
         </form>
       </div>
